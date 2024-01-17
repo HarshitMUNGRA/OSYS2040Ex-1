@@ -1,5 +1,7 @@
-function number()
+button = document.getElementById("btn");
+button.addEventListener("click",randomNum)
+
+function randomNum()
 {
-    let number = Math.random(Math.floor()*11);
-    
+    document.getElementById("message").innerHTML = Math.random();
 }
